@@ -1,12 +1,12 @@
 class Doc2dash < Formula
   include Language::Python::Virtualenv
 
-  desc "Create docsets for Dash.app-compatible API browsers."
+  desc "Create docsets for Dash.app-compatible API browsers"
   homepage "https://doc2dash.rtfd.io/"
   url "https://files.pythonhosted.org/packages/c0/4c/e52c98d19c6abc179a682a5a5e4877551df12dca30335e6678d6cd555a76/doc2dash-3.0.0.tar.gz"
   sha256 "5456ee60cce489dd03f6e236b2d997f949d17de3a0fce5e6be3c262493efa1ee"
-  head "https://github.com/hynek/doc2dash.git", branch: "main"
   license "MIT"
+  head "https://github.com/hynek/doc2dash.git", branch: "main"
 
   depends_on "python@3.10"
 
@@ -53,6 +53,6 @@ class Doc2dash < Formula
   end
 
   test do
-    system "doc2dash --version"
+    system "doc2dash", "--version"
   end
 end
