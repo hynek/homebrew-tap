@@ -4,9 +4,9 @@
 
 To install [*doc2dash*](https://doc2dash.readthedocs.io/) from this tap:
 
-`brew install hynek/doc2dash/doc2dash`
+`brew install hynek/tap/doc2dash`
 
-Or `brew tap hynek/doc2dash` and then `brew install doc2dash`.
+Or `brew tap hynek/tap` and then `brew install doc2dash`.
 
 
 ## Documentation
