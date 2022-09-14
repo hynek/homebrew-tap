@@ -16,6 +16,7 @@ class Doc2dash < Formula
     sha256 cellar: :any_skip_relocation, big_sur:      "6347927d49b8252051cff2a819faac1d9bc66e2283be2addcd50629cafed2958"
     sha256 cellar: :any_skip_relocation, monterey:     "f158208cfd5e6da1c7a85090b6c8abdeb2c2e078449c0c6ce47f703ead1f3cc2"
     sha256 cellar: :any_skip_relocation, x86_64_linux: "61e031b00a1c7ffc3fda2b63e59135634994ec0a3dfd3c34ddcade200bd7f4b4"
+    sha256 cellar: :any_skip_relocation, arm64_monterey: "d0b388f3703a732791b600226a543fd58a542f54e6273d4ea446e616d141da02"
   end
 
   depends_on "python@3.10"
