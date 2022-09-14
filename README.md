@@ -1,10 +1,13 @@
-# Hynek Doc2dash
+# doc2dash for Homebrew
 
 ## How do I install these formulae?
 
-`brew install hynek/doc2dash/<formula>`
+To install [*doc2dash*](https://doc2dash.readthedocs.io/) from this tap:
 
-Or `brew tap hynek/doc2dash` and then `brew install <formula>`.
+`brew install hynek/doc2dash/doc2dash`
+
+Or `brew tap hynek/doc2dash` and then `brew install doc2dash`.
+
 
 ## Documentation
 
