@@ -34,9 +34,11 @@ jobs:
       - run: brew test-bot --only-tap-syntax
 
       - run: brew test-bot --only-formulae
+        if: always() && github.event_name == 'pull_request'
         if: github.event_name == 'pull_request'
 
       - run: brew install --build-bottle Formula/doc2dash.rb
+        if: always() && github.event_name == 'pull_request'
       - run: brew bottle doc2dash
 
       - name: Upload bottles as artifact
