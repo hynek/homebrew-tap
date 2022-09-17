@@ -38,7 +38,9 @@ jobs:
 
       - run: brew install --build-bottle Formula/doc2dash.rb
         if: always() && github.event_name == 'pull_request'
+
       - run: brew bottle doc2dash
+        if: always() && github.event_name == 'pull_request'
 
       - name: Upload bottles as artifact
         if: always() && github.event_name == 'pull_request'
