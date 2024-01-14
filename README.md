@@ -10,6 +10,8 @@ $ brew install hynek/tap/doc2dash
 
 Or `brew tap hynek/tap` and then `brew install doc2dash`.
 
+Check out *doc2dash*'s [installation instructions](https://doc2dash.hynek.me/en/latest/installation/) for other options.
+
 
 ## Why Is *doc2dash* Not in Homebrew Proper?
 
