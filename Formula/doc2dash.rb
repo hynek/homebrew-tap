@@ -63,6 +63,6 @@ class Doc2dash < Formula
   end
 
   test do
-    system "doc2dash", "--version"
+    system "#{bin}/doc2dash", "--version"
   end
 end
