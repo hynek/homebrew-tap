@@ -2,7 +2,7 @@
 
 ## How do I install these formulae?
 
-To install [*doc2dash*](https://doc2dash.readthedocs.io/) from this tap:
+To install [*doc2dash*](https://doc2dash.hynek.me/) from this tap:
 
 `brew install hynek/tap/doc2dash`
 
