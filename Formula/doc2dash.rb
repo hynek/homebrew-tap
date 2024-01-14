@@ -18,7 +18,7 @@ class Doc2dash < Formula
     sha256 cellar: :any_skip_relocation, x86_64_linux:   "61e031b00a1c7ffc3fda2b63e59135634994ec0a3dfd3c34ddcade200bd7f4b4"
   end
 
-  depends_on "python@3.10"
+  depends_on "python@3.12"
 
   resource "attrs" do
     url "https://files.pythonhosted.org/packages/1a/cb/c4ffeb41e7137b23755a45e1bfec9cbb76ecf51874c6f1d113984ecaa32c/attrs-22.1.0.tar.gz"
@@ -56,7 +56,7 @@ class Doc2dash < Formula
   end
 
   def install
-    venv = virtualenv_create(libexec, "python3.10")
+    venv = virtualenv_create(libexec, "python3.12")
     venv.pip_install resources
 
     venv.pip_install_and_link buildpath
