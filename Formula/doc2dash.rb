@@ -3,8 +3,8 @@ class Doc2dash < Formula
 
   desc "Create docsets for Dash.app-compatible API browsers"
   homepage "https://doc2dash.hynek.me/"
-  url "https://files.pythonhosted.org/packages/c0/4c/e52c98d19c6abc179a682a5a5e4877551df12dca30335e6678d6cd555a76/doc2dash-3.0.0.tar.gz"
-  sha256 "5456ee60cce489dd03f6e236b2d997f949d17de3a0fce5e6be3c262493efa1ee"
+  url "https://files.pythonhosted.org/packages/ba/41/e5eda8e3fff9d1c86345fe040f2de004918006a49dfe1bec41ea6bc0638a/doc2dash-3.1.0.tar.gz"
+  sha256 "37f61c8d8f6a955d2466b9c073eb2bff44cc54352bf817afb48a3ac8aef6d594"
   license "MIT"
   head "https://github.com/hynek/doc2dash.git", branch: "main"
 
