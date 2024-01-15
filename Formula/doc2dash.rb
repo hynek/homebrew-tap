@@ -11,11 +11,9 @@ class Doc2dash < Formula
   bottle do
     rebuild 1
     root_url "https://hynek.me/bottles"
-    # sha256 cellar: :any_skip_relocation, arm64_sonoma: "d0b388f3703a732791b600226a543fd58a542f54e6273d4ea446e616d141da02"
-    # sha256 cellar: :any_skip_relocation, catalina:       "396d80b2f0b7b9a5e87a1b781d605a6d2efe1b35e11ee239c389df81add3ffb4"
-    # sha256 cellar: :any_skip_relocation, big_sur:        "6347927d49b8252051cff2a819faac1d9bc66e2283be2addcd50629cafed2958"
-    # sha256 cellar: :any_skip_relocation, monterey:       "f158208cfd5e6da1c7a85090b6c8abdeb2c2e078449c0c6ce47f703ead1f3cc2"
-    # sha256 cellar: :any_skip_relocation, x86_64_linux:   "61e031b00a1c7ffc3fda2b63e59135634994ec0a3dfd3c34ddcade200bd7f4b4"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "322b123170e3638714a8a9f27f90a223e7db7b725a32cec377918fd0aacd5683"
+    sha256 cellar: :any_skip_relocation, monterey:     "7bd1de4e03c70af935b05b06c289deff19777b26fe4bbe34135cad9283dc50f2"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "5db67f5bbc95093f1d1283fd918e4e861ebded1bcacad942fd59d655e2f88bca"
   end
 
   depends_on "python@3.12"
